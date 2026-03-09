@@ -70,6 +70,7 @@ ACE-Step is a hybrid architecture combining a Language Model planner with a Diff
 | ace-step-ui.pinokio | Pinokio | One-click launcher for ace-step-ui (v1.5), auto backend + frontend | [GitHub](https://github.com/cocktailpeanut/ace-step-ui.pinokio) |
 | **ACE-Step-1.5-for-windows** (sdbds) | Python + Windows | 936 Suno style tags with search/select; song parameter history; 4-language UI (EN/ZH/JA/KO); LoRA/LoKR training with GPU memory optimization | [GitHub](https://github.com/sdbds/ACE-Step-1.5-for-windows/tree/qinglong) |
 | **ProdIA-MAX** (ElWalki) | Node.js + Python | Fork of ace-step-ui with AI Chat Assistant (multi-LLM), Audio Codes conditioning, Voice Recorder + Whisper, Chord Progression Editor, Windows one-click setup | [GitHub](https://github.com/ElWalki/ProdIA_Max-Ace-Step-UI_Ace-Step-v1.5) |
+| **ACE-Step-RADIO** | Python | Continuous radio-style music stream powered by ACE-Step — auto-generates and plays songs back-to-back | [GitHub](https://github.com/PasiKoodaa/ACE-Step-RADIO) |
 
 ## ComfyUI
 
@@ -81,6 +82,7 @@ ACE-Step is a hybrid architecture combining a Language Model planner with a Diff
 | **scromfyUI-AceStep** | 30+ specialized nodes: audio KSamplers with shift control, multi-API lyrics gen (Gemini/Groq/OpenAI/Claude), masking & inpainting | [GitHub](https://github.com/scruffynerf/scromfyUI-AceStep) |
 | **ComfyUI-FL-AceStep-Training** | LoRA training pipeline in ComfyUI: auto-label, tiled VAE, real-time loss charts | [GitHub](https://github.com/filliptm/ComfyUI-FL-AceStep-Training) |
 | Comfyui_SN_AceStepTrainer | LoRA training nodes for ACE-Step 1.5 inside ComfyUI | [GitHub](https://github.com/Starnodes2024/Comfyui_SN_AceStepTrainer) |
+| **ComfyUI-kaola-ace-step** | ComfyUI custom nodes for ACE-Step music generation | [GitHub](https://github.com/kana112233/ComfyUI-kaola-ace-step) |
 
 ## Training and Fine-tuning
 
@@ -121,6 +123,7 @@ A comparison of notable open-source music generation projects alongside ACE-Step
 | **Stable Audio Tools** | DiT + flow matching | Text → variable-length stereo audio (up to 47 s) | MIT | [GitHub](https://github.com/Stability-AI/stable-audio-tools) |
 | **DiffRhythm** | Latent diffusion (DiT + VAE) | Lyrics → full-length song (up to 4 min 45 s) in ~10 s | Apache-2.0 | [GitHub](https://github.com/ASLP-lab/DiffRhythm) |
 | **HeartMuLa** | LLM-based codec | Song gen, lyric recognition, audio codec, audio-text alignment | Apache-2.0 | [GitHub](https://github.com/HeartMuLa/heartlib) |
+| **SongGeneration (LeVo)** | Transformer-based | Lyrics → high-quality full song with multi-preference alignment (vocals + BGM) | Non-commercial | [GitHub](https://github.com/tencent-ailab/SongGeneration) |
 
 ## Tutorials and Guides
 
